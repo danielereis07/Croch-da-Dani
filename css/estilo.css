@@ -1,0 +1,135 @@
+h1{
+	color: #F5F5F5;
+	text-align: center;
+	font-family: calibri;
+}
+strong{
+	color: yellow;
+}
+p{
+	color: white;
+}
+body{
+	background-color: white;
+}
+.corpo{
+	margin: 0 auto;
+    width: 1200px;
+    min-height: 1180px;
+    border: 5px red;
+    border-style: solid;
+    border-radius: 10px;
+}
+.cabecalho{
+	margin-top: 3px;
+    width: 100%;
+    height: 220px;
+    border: 0px red;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    background-color: grey;
+}
+.centro1 {
+    margin-top: 3px;
+	width: 295px;
+	min-height: 600px;
+	border: 0px red;
+	border-style: solid;
+	border-radius: 10px;
+	float: left;
+	background-color: grey;
+}
+.centro1-ho{
+	margin-top: 3px;
+	width: 295px;
+	min-height: 15px;
+	border: 0px red;
+	border-style: solid;
+	border-radius: 10px;
+	float: left;
+	background-color: grey;
+}
+.centro2 {
+    margin-top: 3px;
+    margin-left: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 895px;
+    min-height: 600px;
+    border: 0px black;
+    border-style: solid;
+    border-radius: 10px;
+    float: left;
+    background-color: grey;
+    text-align: justify;
+    font-family: calibri;
+}
+.rodape {
+    margin-top: 3px;
+    width: 100%;
+    height: 350px;
+    border: 0px red;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    background-color: grey;
+}
+#menu-site ul {
+	padding:3px;
+	margin:2px;
+	background-color: grey;
+	list-style:none;
+	font-size: 20px;
+	font-family: helvetica;
+
+}
+#menu-site ul li { 
+	display: block; 
+}
+#menu-site ul li a {
+	margin: 2px;
+	padding: 10px;
+	display: block;
+
+	/* visual do link */
+	background-color:grey;
+	color: white;
+	text-decoration: none;
+	border: 1px white;
+	border-style: solid;
+	border-radius: 10px;
+}
+#menu-site ul li a:hover {
+	background-color: #E6E6FA;
+	color: black;
+	border-bottom:3px solid #708090;
+}
+#menu-site-ho ul {
+	padding:3px;
+	margin:2px;
+	background-color: white;
+	list-style:none;
+	font-size: 20px;
+	font-family: helvetica;
+
+}
+#menu-site-ho ul li { 
+	display: inline-block; 
+}
+#menu-site-ho ul li a {
+	margin: 2px;
+	padding: 10px;
+	display: inline-block;
+
+	/* visual do link */
+	background-color:#E6E6FA;
+	color: grey;
+	text-decoration: none;
+	border-radius: 10px;
+}
+#menu-site-ho ul li a:hover {
+	background-color: #E6E6FA;
+	color: black;
+	border-bottom:3px solid #708090;
